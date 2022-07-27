@@ -1,0 +1,14 @@
+package com.jwtlogin.claims.model;
+
+public enum ClaimFlow {
+	
+	CLAIM_TO_START,
+	CLAIM_APPROVED_L1,
+	CLAIM_DENIED_L1,
+	CLAIM_APPROVED_L2,
+	CLAIM_DENIED_L2,
+	CLAIM_APPROVED_L3,
+	CLAIM_DENIED_L3,
+	CLAIM_UNKNOWN
+
+}
